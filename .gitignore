@@ -1,0 +1,83 @@
+# QUANTUM SECURITY GITIGNORE
+# If these get out, the quantum advantage is lost
+
+# D-Wave API tokens (DO NOT COMMIT)
+*.dwavedw.conf
+.env
+secrets/
+credentials/
+tokens/
+
+# Quantum state files
+*.qpu
+*.qubit
+*.annealing
+
+# Data directories
+data/
+llm_corpus/
+user_datasets/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Binary files
+*.dmp
+*.mem
+*.pcap
+*.vmdk
+*.vhd
+
+# Large files
+*.h5
+*.pkl
+*.pickle
+*.joblib
+
+# Quantum-specific
+qpu_cache/
+quantum_cache/
+embedding_cache/
