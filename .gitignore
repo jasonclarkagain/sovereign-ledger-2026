@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # QUANTUM SECURITY GITIGNORE
 # If these get out, the quantum advantage is lost
 
@@ -81,3 +82,14 @@ temp/
 qpu_cache/
 quantum_cache/
 embedding_cache/
+=======
+.local/
+.config/
+.cache/
+node_modules/
+**/secrets/
+**/*.key
+**/*.pem
+*.tfstate
+panic.sh
+>>>>>>> 9a13f1b (Bootstrap Sovereign-Ledger-2026 Core)
